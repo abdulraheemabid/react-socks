@@ -5,7 +5,7 @@ export as namespace ReactSocks;
 
 declare namespace ReactSocks {
   interface Props {
-    [key: string]: React.ReactNode | string | boolean;
+    [key: string]: React.ReactNode | React.CSSProperties | string | boolean;
     children?: React.ReactNode;
     up?: boolean;
     down?: boolean;
